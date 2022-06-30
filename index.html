@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 样式引入 -->
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+
+<body>
+
+    <!-- 头部区域 -->
+    <div class="header w">
+        <!-- logo部分 -->
+        <div class="logo">
+            <img style="width: 110px;height: 30px;" src="images/LOGO.png" alt="">
+        </div>
+
+        <!-- nav图标部分 -->
+        <div class="nav">
+            <img class="setting" src="images/settings.png" alt="">
+            <img class="bell" src="images/bell.png" alt="">
+        </div>
+
+        <!-- logOut部分 -->
+        <div class="logOut">
+            <img style="width: 110px;height: 40px;" src="images/LogOut.png" alt="">
+        </div>
+
+    </div>
+
+    <!-- 中央区域 -->
+    <div class="main">
+        <!-- 上部导航 -->
+        <div class="title w">
+            <!-- 标题区域 -->
+            <div class="describ">
+                <div>Audience Overview</div>
+                <div>Roseville,CA</div>
+            </div>
+
+            <!-- 导航栏 -->
+            <div class="navgater">
+                <ul>
+                    <li><a href="#">DASHBOARD</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">CALENDAR</a></li>
+                    <li><a href="#">MAILBOX</a></li>
+                    <li><a href="#">SETTINGS</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 轮播图 -->
+        <div class="bannerView w">
+            <!-- 左侧 -->
+            <div class="banner_box">
+                <div id="wrap">
+                    <!-- 滚动区域 -->
+                    <div class="img-list">
+                        <img src="https://s1.ax1x.com/2020/09/26/0irm1P.jpg" />
+                        <img src="https://s1.ax1x.com/2020/09/26/0irQ0g.jpg" />
+                        <img src="https://s1.ax1x.com/2020/09/26/0ir8ts.jpg" />
+                        <img src="https://s1.ax1x.com/2020/10/11/0gbKoV.jpg" />
+                        <img src="https://s1.ax1x.com/2020/10/11/0gb7Os.jpg" />
+                    </div>
+
+                    <!-- 下部导航条 -->
+                    <ol class="circle-list">
+                        <li class="circle active" data-n="0"></li>
+                        <li class="circle" data-n="1"></li>
+                        <li class="circle" data-n="2"></li>
+                        <li class="circle" data-n="3"></li>
+                        <li class="circle" data-n="4"></li>
+                    </ol>
+
+                    <!-- 小箭头 -->
+                    <div class="arrow">
+                        <a href="javascript:;" class="left"><</a>
+                        <a href="javascript:;" class="right">></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右侧 -->
+            <div class="infoView">
+                <div class="info_title">
+                    <div class="infot_left">Support Requests</div>
+                    <div class="infot_right">View all</div>
+                </div>
+                <div class="info">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>TIME</th>
+                                <th>USER NAME</th>
+                                <th>STATUS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>9:45pm</td>
+                                <td>info@design.com</td>
+                                <td><span style="cursor:pointer;">solved</span></td>
+                            </tr>
+                            <tr>
+                                <td>9:45pm</td>
+                                <td>info@design.com</td>
+                                <td><span style="cursor:pointer;">solved</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 曲线图 -->
+        <div class="diagram w"></div>
+
+        <!-- 两种图展示区域 -->
+        <div class="twoShow w">
+            <!-- 饼状图 -->
+            <div class="pieChart"></div>
+            <!-- 柱状图 -->
+            <div class="histogram"></div>
+        </div>
+    </div>
+
+
+    <!-- 脚步区域 -->
+    <div class="footer">
+        <div class="bottom w">
+            <div class="blogo">
+                <img style="width: 110px;height: 30px;" src="images/LOGO.png" alt="">
+            </div>
+            <div class="links">
+                <dl>
+                    <dd><a href="#">NEWS</a></dd>
+                    <dd><a href="#">CHANNELS</a></dd>
+                    <dd><a href="#">OVERVIEW</a></dd>
+                    <dd><a href="#">TIMELINE</a></dd>
+                </dl>
+                <dl>
+                    <dd><a href="#">SPORT</a></dd>
+                    <dd><a href="#">CULTURE</a></dd>
+                    <dd><a href="#">NATURE</a></dd>
+                    <dd><a href="#">MUSIC</a></dd>
+                </dl>
+                <dl>
+                    <dd><a href="#">WEATHER</a></dd>
+                    <dd><a href="#">AUTOS</a></dd>
+                    <dd><a href="#">LOCAL</a></dd>
+                    <dd><a href="#">SHOP</a></dd>
+                </dl>
+                <dl>
+                    <dd><a href="#">FUTURE</a></dd>
+                    <dd><a href="#">FOOD</a></dd>
+                    <dd><a href="#">EARTH</a></dd>
+                    <dd><a href="#">TV</a></dd>
+                </dl>
+                <dl>
+                    <dd><a href="#">TRAVEL</a></dd>
+                    <dd><a href="#">RADIO</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/echarts.js"></script>
+
+
+</html>

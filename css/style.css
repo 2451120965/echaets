@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 版心 */
+.w {
+    width: 1140px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 40px;
+    /* 会层叠w 里的margin */
+    margin: 30px auto;
+    background-color: #ffffff;
+}
+
+.logo {
+    float: left;
+    width: 110px;
+    height: 30px;
+    margin-top: 5px;
+    /* background-color: purple; */
+}
+
+.nav {
+    float: left;
+    width: 80px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 800px;
+}
+
+.nav img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+.logOut {
+    float: right;
+    width: 110px;
+    height: 40px;
+}
+
+.main {
+    padding-bottom: 50px;
+    background-color: #f5f8f9;
+}
+
+/* 上部导航区域 */
+/* 左 */
+.title {
+    height: 180px;
+}
+
+.describ {
+    float: left;
+    width: 275px;
+    height: 55px;
+    margin-top: 63px;
+}
+/* 右 */
+.navgater {
+    float: right;
+    /* width: 461px; */
+    height: 30px;
+    margin-top: 75px;
+    /* background-color: purple; */
+}
+
+.navgater ul li {
+    float: left;
+}
+
+.navgater ul li a {
+    display: block;
+    height: 25px;
+    margin-left: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #262b2e;
+}
+
+.navgater ul li a:hover {
+    border-bottom: 2px solid #cccfd0;
+}
+
+/* 轮播图区域 */
+.bannerView {
+    height: 290px;
+}
+
+.banner_box {
+    float: left;
+    width: 540px;
+    height: 270px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+
+
+
+#wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #wrap .img-list {
+    display: flex;
+    position: relative;
+    left: 0px;
+    width: 100%;
+    /* height: 100%; */
+    transition: 0.5s ease;
+  }
+
+  #wrap .img-list img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  #wrap a {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: block;
+    width: 40px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    user-select: none;
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+  }
+
+  #wrap a.left {
+    left: 0;
+  }
+
+  #wrap a.right {
+    right: 0;
+  }
+
+  .circle-list {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100px;
+    height: 15px;
+    z-index: 8;
+  }
+  .circle-list > .circle {
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    padding: auto;
+    background-color: #fff;
+  }
+
+  .circle-list > .circle.active {
+    background-color: #e74c3c;
+  }
+
+
+.infoView {
+    float: right;
+    width: 560px;
+    height: 290px;
+    background-color: #ffffff
+}
+
+.info_title {
+    height: 110px;
+    padding: 0 40px;
+    border-bottom: 1px solid #cccfd0;
+}
+
+.info_title .infot_left {
+    float: left;
+    width: 155px;
+    height: 20px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 45px;
+}
+
+.info_title .infot_right {
+    float: right;
+    width: 95px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border: 1px solid #cccfd0;
+    margin-top: 35px;
+    cursor:pointer;
+}
+
+.infoView .info {
+    padding: 15px 40px;
+}
+
+.infoView .info table {
+    width: 100%;
+}
+
+.infoView .info th {
+    width: 100px;
+    text-align: left;
+}
+
+.infoView .info th:last-child {
+    width: 100px;
+    text-align: right;
+}
+
+.infoView .info tbody td {
+    height: 50px;
+}
+
+.infoView .info tbody td:last-child {
+    text-align: right;
+}
+
+tbody span {
+    color: #f4fcf4;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #5dd054;
+}
+
+
+
+/* 曲线图 */
+.diagram {
+    height: 350px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.twoShow {
+    height: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* 饼状图 */
+.pieChart {
+    float: left;
+    width: 560px;
+    height: 380px;
+    background-color: #ffffff;
+}
+/* 柱状图 */
+.histogram {
+    float: right;
+    width: 560px;
+    height: 380px;
+    background-color: #ffffff;
+}
+
+.footer {
+    height: 290px;
+    background-color: #202124;
+}
+
+.bottom {
+    padding-top: 77px;
+}
+
+.blogo {
+    float: left;
+    margin-top: 10px;
+    width: 110px;
+    height: 30px;
+}
+
+.links {
+    float: right;
+}
+
+.links dl {
+    float: left;
+    margin-right: 100px;
+}
+
+.links dl dd {
+    margin-top: 10px;
+}
+
+.links dl dd a {
+    color: #e1e1e2;
+    font-size: 18px;
+}
